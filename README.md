@@ -43,13 +43,14 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 ## 🧩 Étapes de conception
 
 1. *Chargement et analyse des données*
-   - Nettoyage, transformation des variables catégorielles
-   - Visualisation de la distribution des classes
+   - Analyse du fond et de la forme du tableau de données
+   - Analyse des valeurs manquantes et des variables
+   - Analyse (visualisation) graphique de la relation entre les variables
 2. *Prétraitement des données*
-   - Normalisation, encodage, gestion des valeurs déséquilibrées
+   - Normalisation(Standarisation), encodage, gestion des valeurs déséquilibrées
 3. *Modélisation*
    - Entraînement d’un modèle 
-   - Évaluation (accuracy)
+   - Évaluation (accuracy,cross_val_score)
    - Export du modèle avec Pickle
 4. *Développement de l’application*
    - Interface utilisateur Streamlit
