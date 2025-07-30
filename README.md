@@ -81,7 +81,7 @@ Puis entrer
 ```
 cd Credit_risk\Projet de prédiction du risque de crédit\Application web de prédiction du risque de crédit
 ```
-2. Installer les dépendances(Streamlit,Pandas,Scikit_learn,Seaborn,Matplotlib) si vous ne les avez pas
+2. Installer les dépendances (Streamlit,Pandas,Scikit_learn,Seaborn,Matplotlib) si vous ne les avez pas (aussi disponible sur Jupiter note book d'anaconda)
 ```
 pip install -r requirements.txt
 ```
