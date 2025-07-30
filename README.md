@@ -76,7 +76,7 @@ git clone https://github.com/utilisateur/projet_credit.git
 cd projet_credit
 
 # 2. Installer les dépendances
-pip install -r requirements.docx
+pip install -r requirements.txt
 
 # 3. Lancer l’application
 streamlit run main.py
