@@ -3,21 +3,21 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder
 
-st.title("Résultat de la prédiction de risque")
+st.title("Résultat de la prédiction de risque/Risk prediction result")
 
-st.sidebar.header("Caractéristiques du client")
+st.sidebar.header("Caractéristiques du client/Customer characteristics")
 
 def client_caract_entree():
     
     Credit_History = st.sidebar.selectbox('Historique de crédit', [0, 1, 2, 3, 4])
     Age = st.sidebar.slider('Age', 18, 75, 30)
-    Gender = st.sidebar.selectbox('Genre', ['female', 'male'])
+    Gender = st.sidebar.selectbox('Genre/Gender', ['female', 'male'])
     Job = st.sidebar.selectbox('Emploi', [0, 1, 2, 3])
-    Housing = st.sidebar.selectbox('Type de logement', ('own', 'rent', 'free'))
-    Saving_accounts = st.sidebar.selectbox('Compte épargne', ('little', 'quite rich', 'rich', 'moderate'))
-    CreditAmount = st.sidebar.slider('Montant du crédit', 250, 20000, 1000)
-    Duration = st.sidebar.slider('Durée du crédit (mois)', 4, 72, 24)
-    Purpose = st.sidebar.selectbox('Objet du crédit', ('car','domestic appliances','education','furniture/equipment','radio/TV'	,'repairs',	'vacation/others'))
+    Housing = st.sidebar.selectbox('Type de logement/Housing', ('own', 'rent', 'free'))
+    Saving_accounts = st.sidebar.selectbox('Compte épargne/Saving accounts', ('little', 'quite rich', 'rich', 'moderate'))
+    CreditAmount = st.sidebar.slider('Montant du crédit/Credit amount', 250, 20000, 1000)
+    Duration = st.sidebar.slider('Durée du crédit (mois)/Duration', 4, 72, 24)
+    Purpose = st.sidebar.selectbox('Objet du crédit(but)/Purpose', ('car','domestic appliances','education','furniture/equipment','radio/TV'	,'repairs',	'vacation/others'))
 
     data = {
         'Credit History': Credit_History,
@@ -57,7 +57,7 @@ model = pickle.load(open('risk_prediction.pkl', 'rb'))
 
 prediction = model.predict(data_input[:1])[0]
 
-st.subheader("Résultat de la prévision")
+st.subheader("Résultat de la prévision/Result of the forecast")
 if st.button("Tester"):
     if prediction == 1 :
         st.success("Risque faible")
