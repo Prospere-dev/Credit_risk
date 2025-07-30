@@ -15,7 +15,7 @@ def client_caract_entree():
     Housing = st.sidebar.selectbox('Type de logement/Housing', ('own', 'rent', 'free'))
     Saving_accounts = st.sidebar.selectbox('Compte épargne/Saving accounts', ('little', 'quite rich', 'rich', 'moderate'))
     CreditAmount = st.sidebar.slider('Montant du crédit/Credit amount', 250, 20000, 1000)
-    Duration = st.sidebar.slider('Durée du crédit (mois)/Duration', 4, 72, 24)
+    Duration = st.sidebar.slider('Durée du crédit (mois)/Duration', 4, 144, 24)
     Purpose = st.sidebar.selectbox('Objet du crédit(but)/Purpose', ('car','domestic appliances','education','furniture/equipment','radio/TV'	,'repairs',	'vacation/others'))
 
     data = {
