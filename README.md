@@ -70,10 +70,10 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 > Ouvre un terminal et suis ces étapes :
 
-``
+
 > 1. Cloner le projet (ou naviguer dans le dossier)
 Entrer dans le terminal (de préférence celui d'Anaconda ou autre)
-```
+```bash
 git clone https://github.com/Prospere-dev/Credit_risk.git
 ```
 Puis entrer
