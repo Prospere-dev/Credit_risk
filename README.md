@@ -51,7 +51,7 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 3. *Modélisation*
    - Entraînement d’un modèle (ex. : régression logistique)
    - Évaluation (accuracy)
-   - Export du modèle avec joblib
+   - Export du modèle avec Pickle
 4. *Développement de l’application*
    - Interface utilisateur Streamlit
    - Chargement du modèle et des données
@@ -79,4 +79,4 @@ cd projet_credit
 pip install -r requirements.txt
 
 # 3. Lancer l’application
-streamlit run app.py
+streamlit run main.py
