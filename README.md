@@ -70,15 +70,21 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 > Ouvre un terminal et suis ces étapes :
 
-```bash
-# 1. Cloner le projet (ou naviguer dans le dossier)
+``
+> 1. Cloner le projet (ou naviguer dans le dossier)
+Entrer dans le terminal (de préférence celui d'Anaconda ou autre)
+```
 git clone https://github.com/Prospere-dev/Credit_risk.git
-cd Credit_risk\Projet de prédiction du risque de crédit
-
-# 2. Installer les dépendances
-pip install -r requirements.txt
-
-# 3. Lancer l’application
+```
+Puis entrer
+```
 cd Credit_risk\Projet de prédiction du risque de crédit\Application web de prédiction du risque de crédit
-
+```
+> 2. Installer les dépendances
+```
+pip install -r requirements.txt
+```
+> 3. Lancer l’application
+```
 streamlit run main.py
+```
