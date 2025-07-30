@@ -59,10 +59,18 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 5. *Déploiement local (ou en ligne si souhaité)*
 
 ---
-
 ## 🗂 Structure du projet
 
-
+Project/
+│
+├── Web application/ # Dossier contenant l'application Streamlit
+│ ├── main.py # Script principal de l'application
+│ ├── requirements.txt # Fichier des dépendances
+│ ├── data.csv # Données client (pour interface ou exemple)
+│ ├── model.pkl # Modèle de prédiction pré-entraîné
+│
+├── notebook.ipynb # Notebook d'exploration, prétraitement et entraînement
+├── README.md # Ce fichier
 
 ---
 
