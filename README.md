@@ -8,7 +8,7 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 ## 🎯 Objectif principal
 
-- Construire un modèle fiable de *classification binaire* (bon = Risque faible / mauvais payeur = Risque élevé).
+- Construire un modèle fiable de *classification binaire* (bon payeur = Risque faible / mauvais payeur = Risque élevé).
 - Fournir une *interface Web simple et interactive* permettant de tester différents profils client et de visualiser le résultat de la prédiction.
 - Rendre le modèle *exploitable* par des non-spécialistes grâce à une application web légère avec *Streamlit*.
 
