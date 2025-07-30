@@ -3,7 +3,7 @@
 # 💼 Évaluation du risque client via une interface interactive
 
 Ce projet vise à développer un outil capable d’estimer en temps réel le *risque de défaut de paiement d’un client* à partir de ses caractéristiques personnelles et financières. L'application permet une utilisation simple et rapide, notamment pour les *analystes de crédit* ou les *chargés de clientèle bancaire, dans le cadre de la* *prise de décision sur l’octroi d’un crédit*.
-
+Il retourne "Risque faible" si  le client est un bon payeur et "Risque élevé" dans le cas contraire
 ---
 
 ## 🎯 Objectif principal
