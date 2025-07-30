@@ -61,3 +61,22 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 ---
 
 ## 🗂 Structure du projet
+
+
+
+---
+
+## 🚀 Lancement de l'application Streamlit (localement)
+
+> Ouvre un terminal et suis ces étapes :
+
+```bash
+# 1. Cloner le projet (ou naviguer dans le dossier)
+git clone https://github.com/utilisateur/projet_credit.git
+cd projet_credit
+
+# 2. Installer les dépendances
+pip install -r requirements.txt
+
+# 3. Lancer l’application
+streamlit run app.py
