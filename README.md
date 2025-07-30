@@ -79,4 +79,6 @@ cd Credit_risk\Projet de prédiction du risque de crédit
 pip install -r requirements.txt
 
 # 3. Lancer l’application
+cd Credit_risk\Projet de prédiction du risque de crédit\
+
 streamlit run main.py
