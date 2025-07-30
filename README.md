@@ -49,7 +49,7 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 2. *Prétraitement des données*
    - Normalisation, encodage, gestion des valeurs déséquilibrées
 3. *Modélisation*
-   - Entraînement d’un modèle (ex. : régression logistique)
+   - Entraînement d’un modèle 
    - Évaluation (accuracy)
    - Export du modèle avec Pickle
 4. *Développement de l’application*
