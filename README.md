@@ -72,8 +72,8 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 ```bash
 # 1. Cloner le projet (ou naviguer dans le dossier)
-git clone https://github.com/utilisateur/projet_credit.git
-cd projet_credit
+git clone https://github.com/Prospere-dev/Credit_risk.git
+cd Credit_risk\Projet de prédiction du risque de crédit
 
 # 2. Installer les dépendances
 pip install -r requirements.txt
