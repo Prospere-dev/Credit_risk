@@ -1,5 +1,0 @@
-Streamlit
-Pandas
-Scikit_learn
-Seaborn
-Matplotlib
