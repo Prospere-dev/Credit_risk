@@ -26,7 +26,6 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 ### 📚 Bibliothèques Python :
 - *Analyse et manipulation de données* :
   - pandas : manipulation de tableaux de données
-  - numpy : opérations numériques
 - *Visualisation* :
   - matplotlib, seaborn : graphiques statistiques
 - *Modélisation & machine learning* :
