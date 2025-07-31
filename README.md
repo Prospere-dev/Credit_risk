@@ -62,7 +62,9 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 ## 🗂 Structure du projet
 
 Project/
+
 │
+
 ├── Web application/             # Dossier contenant l'application Streamlit
 
 │   ├── main.py                  # Script principal de l'application
