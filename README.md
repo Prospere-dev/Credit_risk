@@ -61,7 +61,7 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 ---
 ## 🗂 Structure du projet
 
-      Project/  
+          Project/  
           │
           ├── Web application/                                                  
           │   ├── main.py                                                       
