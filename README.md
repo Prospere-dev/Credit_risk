@@ -88,7 +88,7 @@ git clone https://github.com/Prospere-dev/Credit_risk.git
 ```
 Puis entrer
 ```
-cd Credit_risk\Projet de prédiction du risque de crédit\Application web de prédiction du risque de crédit
+cd Credit_risk\Projet_de_prediction_du_risque_de_credit\Application_web_de_prediction_du_risque_de_credit
 ```
 2. Installer les dépendances (Streamlit,Pandas,Scikit_learn,Seaborn,Matplotlib) si vous ne les avez pas (aussi disponible sur Jupiter note book d'anaconda)
 ```
