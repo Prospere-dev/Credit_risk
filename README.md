@@ -65,19 +65,18 @@ Project/
 
 │
 
-├── Web application/                                                  # Dossier contenant l'application Streamlit
+├── Web application/                                                  
 
-│   ├── main.py                                                       # Script principal de l'application
+│   ├── main.py                                                       
 
-│   ├── requirements.txt                                              # Dépendances Python nécessaires à l'application
+│   ├── requirements.txt                                              
 
-│   ├── data.csv                                                      # Données utilisées pour l'interface utilisateur
+│   ├── data.csv                                                      
 
-│   ├── model.pkl                                                     # Modèle de machine learning pré-entraîné
+│   ├── model.pkl                                                     
 │
-├── notebook.ipynb                                                    # Notebook Jupyter : exploration et entraînement du modèle
-
-├── README.md                                                         # Documentation du projet
+├── notebook.ipynb                                                    
+├── README.md                                                         
 
 ---
 
