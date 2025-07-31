@@ -34,8 +34,8 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
   - streamlit : interface utilisateur interactive
 
 ### 📂 Autres fichiers importés :
-- risk_prediction.pkl : modèle de machine learning enregistré
-- Credit.csv : jeu de données prétraité pour la prédiction
+- risk_prediction.pkl : modèle de machine learning enregistré (model)
+- Credit.csv : jeu de données prétraité pour la prédiction (data)
 - main.py : fonctions de nettoyage ou transformation
 
 ---
