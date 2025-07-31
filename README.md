@@ -60,17 +60,18 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 ---
 ## 🗂 Structure du projet
+---
 
-          Project/  
+          Project/
+          ├── Web application/            
+          │   ├── main.py
+          │   ├── requirements.txt
+          │   ├── data.csv
+          │   ├── model.pkl
+          │   └── notebook.ipynb
           │
-          ├── Web application/                                                  
-          │   ├── main.py                                                       
-          │   ├── requirements.txt                                              
-          │   ├── data.csv                                                      
-          │   ├── model.pkl                                                     
-          │
-          ├── notebook.ipynb                                                    
-          ├── README.md                                                         
+          └── README.md                   
+                                                        
 
 ---
 
