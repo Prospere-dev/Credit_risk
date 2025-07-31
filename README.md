@@ -63,14 +63,14 @@ Ce projet vise à développer un outil capable d’estimer en temps réel le *ri
 
 Project/
 │
-├── Web application/ # Dossier contenant l'application Streamlit
-│ ├── main.py # Script principal de l'application
-│ ├── requirements.txt # Fichier des dépendances
-│ ├── data.csv # Données client (pour interface ou exemple)
-│ ├── model.pkl # Modèle de prédiction pré-entraîné
+├── Web application/             # Dossier contenant l'application Streamlit
+│   ├── main.py                  # Script principal de l'application
+│   ├── requirements.txt         # Dépendances Python nécessaires à l'application
+│   ├── data.csv                 # Données utilisées pour l'interface utilisateur
+│   ├── model.pkl                # Modèle de machine learning pré-entraîné
 │
-├── notebook.ipynb # Notebook d'exploration, prétraitement et entraînement
-├── README.md # Ce fichier
+├── notebook.ipynb               # Notebook Jupyter : exploration et entraînement du modèle
+├── README.md                    # Documentation du projet
 
 ---
 
