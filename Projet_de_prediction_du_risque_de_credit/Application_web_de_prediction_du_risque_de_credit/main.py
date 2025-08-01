@@ -8,8 +8,8 @@ st.sidebar.header("Caractéristiques du client/Customer characteristics")
 
 def client_caract_entree():
     
-    Credit_History = st.sidebar.selectbox('Historique de crédit', [0, 1, 2, 3, 4])
-    Age = st.sidebar.slider('Age', 18, 75, 30)
+    Credit_History = st.sidebar.selectbox('Historique de crédit/Credit History', [0, 1, 2, 3, 4])
+    Age = st.sidebar.slider('Age/Age', 18, 75, 30)
     Gender = st.sidebar.selectbox('Genre/Gender', ['female', 'male'])
     Job = st.sidebar.selectbox('Emploi', [0, 1, 2, 3])
     Housing = st.sidebar.selectbox('Type de logement/Housing', ('own', 'rent', 'free'))
